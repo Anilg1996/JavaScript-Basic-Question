@@ -22,17 +22,21 @@ let arrayOfObjects = [
 //   };
 
   // Use a for loop to find and update the 9th object
-for (let i = 0; i < arrayOfObjects.length; i++) {
-    if (i === 8) { 
-      arrayOfObjects[i] = {
-        name: 'Rama',
-        profile: 'Office Manager',
-      };
-      break;
-    }
-  }
+// for (let i = 0; i < arrayOfObjects.length; i++) {
+//     if (i === 8) { 
+//       arrayOfObjects[i] = {
+//         name: 'Rama',
+//         profile: 'Office Manager',
+//       };
+//       break;
+//     }
+//   }
   
   // Now arrayOfObjects has the updated data for the 9th object
-  console.log(arrayOfObjects);
+//   console.log(arrayOfObjects);
 
-  
+  // Accessing the value of the 'profile' property in the fourth object (index 3)
+let fourthProfile = arrayOfObjects[3].profile;
+
+// Now 'fourthProfile' contains the value 'BA' from the fourth object
+console.log(fourthProfile);
