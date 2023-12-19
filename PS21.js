@@ -7,8 +7,10 @@ const hoursToMinutes = (hour) => {
     return minutes;
 }
 
-let hoursHaveToConvert = 24;
+// let hoursHaveToConvert = 24;
 
-const convertingMinutes = hoursToMinutes(hoursHaveToConvert);
+// const convertingMinutes = hoursToMinutes(hoursHaveToConvert);
 
-console.log( hoursHaveToConvert,"hours equals to",convertingMinutes,"minutes." )
+// console.log( hoursHaveToConvert,"hours equals to",convertingMinutes,"minutes." )
+
+console.log(hoursToMinutes(24))

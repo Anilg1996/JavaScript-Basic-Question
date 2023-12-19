@@ -14,7 +14,9 @@ const findLeapYear = (year) => {
     return leapYears;
 };
 
-const randomYears = [ 2023, 2024, 2025, 2028, 2030 ];
-const leapYear_Year = findLeapYear(randomYears);
+ const randomYears = [ 2023, 2024, 2025, 2028, 2030 ];
+// const leapYear_Year = findLeapYear(randomYears);
 
-console.log( "Array of leap year", leapYear_Year );
+// console.log( "Array of leap year", leapYear_Year );
+
+console.log(findLeapYear(randomYears))

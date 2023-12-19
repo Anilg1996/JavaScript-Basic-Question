@@ -4,15 +4,15 @@
 
 const calculateInterest = (capital,rate) => {
     const interest = capital / 100 * rate;
-    const massage = "Your Capital is " + capital + " . And rate of Interest is "+ rate + ". So your total yearly profit / Interest is " + interest.toFixed(2) ;
-    return massage;
+    // const massage = "Your Capital is " + capital + " . And rate of Interest is "+ rate + ". So your total yearly profit / Interest is " + interest.toFixed(2) ;
+    return interest;
 };
 
 
 
 
-const clintsCapital = 7410;
-const rateOfInterest = 3;
+// const clintsCapital = 7410;
+// const rateOfInterest = 3;
 
-const profit = calculateInterest(clintsCapital, rateOfInterest);
-console.log(profit);
+// const profit = calculateInterest(clintsCapital, rateOfInterest);
+console.log(calculateInterest(7410, 3).toFixed(2));
